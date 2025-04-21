@@ -9,7 +9,6 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - main
       - 'dev-*' #dev-new dev-this-s new
       - 'feat/**' #feat/new
       # developer-1
